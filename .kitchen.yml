@@ -1,0 +1,22 @@
+---
+driver:
+  name: vagrant
+  network:
+    - [ 'private_network', {ip: '192.168.33.13'}]
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: ubuntu-12.04
+  - name: ubuntu-14.04
+
+suites:
+  - name: default
+    run_list:
+      - recipe[elk_kibana::default]
+    attributes:
+      elk_kibana:
+        cluster:
+          name: _default-elk
+
