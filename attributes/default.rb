@@ -1,1 +1,1 @@
-set['elasticsearch']['cluster']['name'] = "elk-#{node.chef_environment}"
+default['elk_kibana']['cluster']['name'] = "elk-#{node.chef_environment}"
