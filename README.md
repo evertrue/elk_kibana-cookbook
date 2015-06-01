@@ -1,30 +1,16 @@
 # elk_kibana [![Build Status](https://travis-ci.org/evertrue/elk_kibana-cookbook.svg)](https://travis-ci.org/evertrue/elk_kibana-cookbook)
 
-TODO: Enter the cookbook description here.
+A simple wrapper cookbook for installing Kibana for use in an ELK environment.  Also see the [elk cookbook](https://github.com/evertrue/elk-cookbook)
 
 # Requirements
 
-* `apt` cookbook
-* `some` cookbook
-* `another` cookbook
-
+* `kibana_lwrp` cookbook
 
 # Recipes
 
 ## default
 
-Short Description
-
-1. Set up & updates apt using `apt::default`
-2. Install xyz by some proccess
-3. Include various recipes for this cookbook:
-    * `elk_kibana::install`
-        - which includes `elk_kibana::another`
-    * `elk_kibana::configure`
-
-## install
-
-More info about the install recipe
+1. Installs Kibana overriding the kibana.yml template file
 
 # Usage
 
