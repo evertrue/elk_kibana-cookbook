@@ -6,20 +6,22 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Improve argument against commit logs.
 
-## [0.0.2] - YYY-MM-DD
+## [0.0.3] - 2015-06-01
 ### Added
-- Explanation of the recommended reverse chronological release ordering.
+- Customn template for kibana.yml due to unreleased fix in kibana_lwrp cookbook
+- Inclustion of 'kibana_lwrp::install'
+- Version pins for the poise cookbook
 
 ### Changed
-- Refer to a "change log" instead of a "CHANGELOG" throughout the site
-to differentiate between the file and the purpose of the file — the
-logging of changes.
+- The elasticsearch cluster name from `elk-#{env}` to `#{env}-elk`
 
 ### Removed
-- Remove empty sections from CHANGELOG, they occupy too much space and
-create too much noise in the file. People will have to assume that the
-missing sections were intentionally left out because they contained no
-notable changes.
+- extranious lwrp delcarations when the 'kibana_lwrp::install' recipe could be used
+
+## [0.0.2] - 2015-05-14
+
+### Add
+- Set the cluster name to `elk-#{env}`
 
 ## 0.0.1 - 2015-05-12
 ### Added
@@ -27,3 +29,4 @@ notable changes.
 
 [unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.0.8...HEAD
 [0.0.2]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.0.1...v0.0.2
+[0.0.3]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.0.2...v0.0.3
