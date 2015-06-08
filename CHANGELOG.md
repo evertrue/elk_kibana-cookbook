@@ -4,7 +4,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 ### Changed
-- Improve argument against commit logs.
+
+## [1.0.0] - 2015-06-08
+### Added
+
+### Changed
+- Pin for kibana_lwrp to ~>2.0.5
+- Updated Gemfile
+
+### Removed
+- The custom kibana.yml template now that kibana_lwrp has been published
 
 ## [0.0.3] - 2015-06-01
 ### Added
