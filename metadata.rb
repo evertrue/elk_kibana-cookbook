@@ -8,5 +8,4 @@ version          '0.0.3'
 
 supports 'ubuntu', '>= 12.04'
 
-depends 'kibana_lwrp', '~> 2.0'
-depends 'poise', '~> 1.0'
+depends 'kibana_lwrp'
