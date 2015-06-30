@@ -5,6 +5,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased][unreleased]
 ### Changed
 
+# [1.1.0] - 2015-06-30
+### Added
+
+### Changed
+- Specified the kibana version and download URL ourselves to update to v4.1.1
+
 ## [1.0.0] - 2015-06-08
 ### Added
 

@@ -4,7 +4,7 @@ maintainer_email 'eddie.hurtig@evertrue.com'
 license          'apache2'
 description      'Installs/Configures elk_kibana'
 long_description 'Installs/Configures elk_kibana'
-version          '1.0.0'
+version          '1.1.0'
 
 supports 'ubuntu', '>= 12.04'
 
